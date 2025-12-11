@@ -2,7 +2,7 @@ import streamlit as st
 from nltk.sentiment import SentimentIntensityAnalyzer
 import nltk
 
-nltk.download("vader-lexicon")
+nltk.download("vader_lexicon")
 st.title("sentiment intensity analyzer")
 sia = SentimentIntensityAnalyzer()
 
